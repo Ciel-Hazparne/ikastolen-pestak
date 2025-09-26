@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+
+h1,h2,h3,h4 {
+    font-family: Futura;	
+    background-color : rgba(69, 153, 62, 0.1);
+}
+
+td.cell {
+    text-align : center;
+    width : 100px;
+}
+
+td.util {
+    text-align : left;
+    width : auto;
+    height: 50px;
+}
+
+td.action {
+    text-align : center;
+    width: 50px;
+}
+
+tr:nth-child(odd){
+    background-color : rgb(245,245,245);
+}
+
+#listeT {
+    border-style: solid;
+    border-width : 1px;
+    border-color : rgb(245,245,245);
+    display:inline-block;  
+    text-align:initial;
+}
+
+#listeDiv{
+    text-align:center;
+}
+.boutonSupp {
+    padding:3px 0 3px 0;
+    font:Bold 10px Arial;
+    background:#d34836;
+    color:#fff;
+    width:40px;
+    border-radius:2px;
+}
+.boutonSupp:hover {
+    background-color: rgb(255, 50, 50);
+}
+.boutonMaj {
+    padding:3px 0 3px 0;
+    font:Bold 10px Arial;
+    background: #45993e;
+    color:#fff;
+    width:40px;
+    border-radius:2px;
+    border:none;
+}
+
+.boutonMaj:hover {
+    background-color: rgb(50, 200, 50);
+}
+
+.action a:link {
+    text-decoration:none;
+    color:#ffffff;
+}
