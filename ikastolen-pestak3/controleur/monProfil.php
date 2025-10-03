@@ -5,7 +5,7 @@ if ( $_SERVER["SCRIPT_FILENAME"] == __FILE__ ){
 include_once "$racine/modele/authentification.inc.php";
 include_once "$racine/modele/bd.utilisateur.inc.php";
 include_once "$racine/modele/bd.typeGastronomie.inc.php";
-include_once "$racine/modele/bd.Fete.inc.php";
+include_once "$racine/modele/bd.fete.inc.php";
 
 // creation du menu Recherche
 $menuRecherche = array();

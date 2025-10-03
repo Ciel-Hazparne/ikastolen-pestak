@@ -1,2 +1,4 @@
 # Ignorer les fichiers spécifiques à PhpStorm
 .idea/
+# Ignorer la connexion BDD du final
+ikastolen-pestak-Final/modele/bd.inc.php

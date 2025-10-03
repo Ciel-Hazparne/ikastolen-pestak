@@ -3,7 +3,7 @@
 if ($_SERVER["SCRIPT_FILENAME"] == __FILE__) {
     $racine = "..";
 }
-include_once "$racine/modele/bd.Fete.inc.php";
+include_once "$racine/modele/bd.fete.inc.php";
 include_once "$racine/modele/bd.typeGastronomie.inc.php";
 include_once "$racine/modele/bd.photo.inc.php";
 
