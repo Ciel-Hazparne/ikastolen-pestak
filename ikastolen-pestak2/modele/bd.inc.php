@@ -3,7 +3,7 @@
 function connexionPDO() {
     $login = "login du TP";
     $mdp = "mdp du TP";
-    $bd = "ikastolen-pestak";
+    $bd = "ikastolen_pestak";
     $serveur = "localhost";
 
     try {
